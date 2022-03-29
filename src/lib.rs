@@ -38,7 +38,6 @@ pub mod line_adj {
         }
     }
     
-    
     pub fn get_formated_str(input: &String, line_width: i32) -> String {
         let words: Vec<&str> = input.split(" ").collect();
         let mut result = String::new();
@@ -69,7 +68,6 @@ pub mod line_adj {
     
         return result;
     }
-
 }
 
 
